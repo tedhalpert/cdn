@@ -1,0 +1,9 @@
+{
+    "fullContentMode": {
+        "isEnable": true,
+        "blacklist": [
+        ]
+    },
+    "blockedList": [
+    ]
+}
