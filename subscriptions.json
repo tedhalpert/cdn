@@ -1,0 +1,61 @@
+{
+    "feeds": {
+        "version": 13,
+        "feedlist": [
+            {
+                "feed_url": "https://www.ifanr.com/feed",
+                "htmlUrl": "https://www.ifanr.com",
+                "title": "爱范儿",
+                "description": "让未来触手可及"
+            },
+            {
+                "feed_url": "https://www.sspai.com/feed",
+                "htmlUrl": "https://www.sspai.com",
+                "title": "少数派",
+                "description": "少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质"
+            },
+            {
+                "feed_url": "https://www.toodaylab.com/feed",
+                "htmlUrl": "https://www.toodaylab.com",
+                "title": "理想生活实验室",
+                "description": "关注创意设计与生活消费"
+            },
+            {
+                "feed_url": "https://www.zhihu.com/rss",
+                "htmlUrl": "https://www.zhihu.com",
+                "title": "知乎每日精选",
+                "description": "中文互联网最大的知识平台，帮助人们便捷地分享彼此的知识、经验和见解。"
+            },
+            {
+                "feed_url": "https://www.zreading.cn/feed",
+                "htmlUrl": "https://www.zreading.cn",
+                "title": "左岸读书",
+                "description": "一切成功均源自积累！"
+            },
+            {
+                "feed_url": "https://www.geekpark.net/rss",
+                "htmlUrl": "https://www.geekpark.net",
+                "title": "极客公园",
+                "description": "极客公园"
+            },
+            {
+                "feed_url": "https://www.feng.com/rss.xml",
+                "htmlUrl": "https://www.feng.com",
+                "title": "威锋网-首页- 最新RSS订阅",
+                "description": "威锋网诞生于2007年1月10日,与美国苹果公司(Apple Inc.)公布iPhone是同一天,也是较早建立的关于iPhone专题网站,威锋网论坛一直是人气中文iPhone,iPad,MAC社区,也是全球关于iPhone讨论的领先网上社区,威锋网出品了原创iPhone中文软件.目前网站提供iPhone软件评测,音乐,电影,铃声下载等服务."
+            },
+            {
+                "feed_url": "https://www.williamlong.info/rss.xml",
+                "htmlUrl": "https://www.williamlong.info",
+                "title": "月光博客",
+                "description": "关注互联网和搜索引擎的IT科技博客"
+            },
+            {
+                "feed_url": "https://cn.technode.com/feed",
+                "htmlUrl": "https://cn.technode.com",
+                "title": "动点科技",
+                "description": "关注值得关注的科技创新，致力于全球科技新闻，创业投资及行业趋势报道，打造科技界中英文交流平台，建立起自身独一无二的集创业公司，投资机构，行业资源和大企业创新的国际化生态系统。"
+            }
+        ]
+    }
+}
