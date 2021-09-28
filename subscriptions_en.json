@@ -1,0 +1,152 @@
+{
+    "feeds": {
+        "version": 9,
+        "feedlist": [            {
+                "feed_url": "https://www.theverge.com/rss/index.xml",
+                "htmlUrl": "https://www.theverge.com/",
+                "title": "The Verge - All Posts",
+                "description": ""
+            },
+            {
+                "feed_url": "https://www.cnet.com/rss/all/",
+                "htmlUrl": "https://www.cnet.com/news/",
+                "title": "CNET",
+                "description": "The latest tech news, product reviews, videos, and how tos from CNET."
+            },
+            {
+                "feed_url": "https://www.engadget.com/rss.xml",
+                "htmlUrl": "https://www.engadget.com/",
+                "title": "Engadget",
+                "description": "Engadget is a web magazine with obsessive daily coverage of everything new in gadgets and consumer electronics"
+            },
+            {
+                "feed_url": "https://gizmodo.com/rss",
+                "htmlUrl": "https://gizmodo.com/",
+                "title": "Gizmodo",
+                "description": "We come from the future"
+            },
+            {
+                "feed_url": "https://techcrunch.com/feed/",
+                "htmlUrl": "https://techcrunch.com/",
+                "title": "TechCrunch",
+                "description": "Startup and Technology News"
+            },
+            {
+                "feed_url": "http://feeds.mashable.com/Mashable",
+                "htmlUrl": "https://mashable.com/",
+                "title": "Mashable",
+                "description": "Mashable is a leading source for news, information & resources for the Connected Generation. Mashable reports on the importance of digital innovation and how it empowers and inspires people around the world. Mashable's 25 million monthly unique visitors and 10 million social media followers have become one of the most engaged online news communities. Founded in 2005, Mashable is headquartered in New York City with an office in San Francisco."
+            },
+            {
+                "feed_url": "http://feeds.arstechnica.com/arstechnica/index/",
+                "htmlUrl": "https://arstechnica.com/",
+                "title": "Ars Technica",
+                "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis."
+            },
+            {
+                "feed_url": "https://feeds2.feedburner.com/thenextweb",
+                "htmlUrl": "https://thenextweb.com/",
+                "title": "The Next Web",
+                "description": "Original and proudly opinionated perspectives for Generation T"
+            },
+            {
+                "feed_url": "http://feeds.macrumors.com/MacRumors-All",
+                "htmlUrl": "https://www.macrumors.com/",
+                "title": "MacRumors: Mac News and Rumors - All Stories",
+                "description": "Apple, iPhone, iPad, Mac News and Rumors"
+            },
+            {
+                "feed_url": "https://9to5mac.com/feed/",
+                "htmlUrl": "https://9to5mac.com",
+                "title": "9to5Mac",
+                "description": "Apple News & Mac Rumors Breaking All Day"
+            },
+            {
+                "feed_url": "https://appleinsider.com/appleinsider.rss",
+                "htmlUrl": "https://appleinsider.com/",
+                "title": "AppleInsider News",
+                "description": "AppleInsider News Feed"
+            },
+            {
+                "feed_url": "https://www.cultofmac.com/feed/",
+                "htmlUrl": "https://www.cultofmac.com/",
+                "title": "Cult of Mac",
+                "description": "Tech and culture through an Apple lens"
+            },
+            {
+                "feed_url": "https://lifehacker.com/rss",
+                "htmlUrl": "https://lifehacker.com/",
+                "title": "Lifehacker",
+                "description": "Do everything better"
+            },
+            {
+                "feed_url": "https://www.howtogeek.com/feed/",
+                "htmlUrl": "https://www.howtogeek.com/",
+                "title": "How-To Geek",
+                "description": "We Explain Technology"
+            },
+            {
+                "feed_url": "https://www.tomsguide.com/feeds/all",
+                "htmlUrl": "https://www.tomsguide.com/",
+                "title": "Tom's Guide",
+                "description": "Helping you decide what tech to buy"
+            },
+            {
+                "feed_url": "https://www.fastcompany.com/latest/rss",
+                "htmlUrl": "https://www.fastcompany.com/",
+                "title": "Fast Company",
+                "description": "Fast Company inspires a new breed of innovative and creative thought leaders who are actively inventing the future of business."
+            },
+            {
+                "feed_url": "https://onezero.medium.com/feed",
+                "htmlUrl": "https://onezero.medium.com/",
+                "title": "OneZero — Tech and Science News, and Articles About the Future - Medium",
+                "description": "OneZero is a Medium publication covering the forces that shape our future. Here, you’ll find the best in tech and science journalism to help you understand our fast-changing world. - Medium"
+            },
+            
+            {
+                "feed_url": "https://daringfireball.net/feeds/main",
+                "htmlUrl": "https://daringfireball.net",
+                "title": "Daring Fireball",
+                "description": "By John Gruber"
+            },
+            {
+                "feed_url": "https://mjtsai.com/blog/feed/",
+                "htmlUrl": "https://mjtsai.com/blog",
+                "title": "Michael Tsai",
+                "description": "https://mjtsai.com"
+            },
+            
+            {
+                "feed_url": "https://ericasadun.com/feed/",
+                "htmlUrl": "https://ericasadun.com",
+                "title": "Erica Sadun",
+                "description": "Where technology meets something or other"
+            },
+            {
+                "feed_url": "https://jvns.ca/atom.xml",
+                "htmlUrl": "https://jvns.ca",
+                "title": "Julia Evans",
+                "description": "https://jvns.ca"
+            },
+            {
+                "feed_url": "https://idlewords.com/index.xml",
+                "htmlUrl": "https://idlewords.com",
+                "title": "Idle Words",
+                "description": "Brevity is for the weak"
+            },
+            {
+                "feed_url": "https://tidbits.com/feed/",
+                "htmlUrl": "https://tidbits.com",
+                "title": "TidBITS",
+                "description": "Thoughtful, detailed coverage of everything Apple for 30 years and the TidBITS Content Network for Apple professionals"
+            },
+            {
+                "feed_url": "https://marginalrevolution.com/feed",
+                "htmlUrl": "https://marginalrevolution.com",
+                "title": "Marginal REVOLUTION",
+                "description": "Small Steps Toward A Much Better World"
+            }
+        ]
+    }
+}
