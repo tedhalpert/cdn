@@ -1,0 +1,151 @@
+{
+    "feeds": {
+        "version": 6,
+        "feedlist": [
+            {
+                "feed_url": "https://applefans.today/feed/",
+                "htmlUrl": "https://applefans.today",
+                "title": "APPLEFANS 蘋果迷",
+                "description": "最有深度的蘋果媒體網站"
+            },
+            {
+                "feed_url": "https://applealmond.com/feed",
+                "htmlUrl": "https://applealmond.com",
+                "title": "蘋果仁 – iPhone/iOS/好物推薦科技媒體",
+                "description": "蘋果、iPhone、iOS、科技家電開箱教學網站"
+            },
+            {
+                "feed_url": "https://feeds.feedburner.com/freegroup/",
+                "htmlUrl": "https://free.com.tw",
+                "title": "免費資源網路社群",
+                "description": "台灣免費資源網站，成立於 2006 年，以免費資源為主軸，內容涵蓋科技新知、線上工具、免費軟體、架站及應用程式相關介紹教學。每日更新，訂閱 RSS 以獲取最新網路免費資訊。"
+            },
+            {
+                "feed_url": "https://www.kocpc.com.tw/feed",
+                "htmlUrl": "https://www.kocpc.com.tw",
+                "title": "電腦王阿達",
+                "description": "各種行動裝置與3C產品的專業評論站"
+            },
+            {
+                "feed_url": "https://mrmad.com.tw/feed",
+                "htmlUrl": "https://mrmad.com.tw/",
+                "title": "瘋先生",
+                "description": "蘋果、iOS、越獄技術知識技巧網站"
+            },
+            {
+                "feed_url": "http://feeds.feedburner.com/playpc",
+                "htmlUrl": "https://www.playpcesor.com/",
+                "title": "電腦玩物",
+                "description": "由 Esor 撰寫的雲端辦公室、數位筆記、時間管理等讓人生更美好工作方法"
+            },
+            {
+                "feed_url": "https://newtalk.tw/rss/all",
+                "htmlUrl": "https://newtalk.tw/",
+                "title": "新頭殼站上新聞",
+                "description": "新頭殼的最新新聞"
+            },
+            {
+                "feed_url": "https://www.newsmarket.com.tw/feed/atom/",
+                "htmlUrl": "https://www.newsmarket.com.tw/",
+                "title": "上下游News&Market",
+                "description": "上下游新聞市集"
+            },
+            {
+                "feed_url": "https://public.twreporter.org/rss/twreporter-rss.xml",
+                "htmlUrl": "https://www.twreporter.org/",
+                "title": "報道者",
+                "description": "報道者 — 深入挖掘新聞"
+            },
+            {
+                "feed_url": "https://www.coolloud.org.tw/rss.xml",
+                "htmlUrl": "https://www.coolloud.org.tw",
+                "title": "苦勞網",
+                "description": ""
+            },
+            {
+                "feed_url": "https://www.matataiwan.com/feed/",
+                "htmlUrl": "https://www.matataiwan.com",
+                "title": "Mata Taiwan",
+                "description": "華文最活躍的原住民部落資訊媒體"
+            },
+            {
+                "feed_url": "https://vita.tw/feed",
+                "htmlUrl": "https://vita.tw?source=rss----8de951f99957---4",
+                "title": "生命力新聞 - Medium",
+                "description": "輔大新聞傳播系實驗媒體，報導社會創新創業的故事，詳見：https://goo.gl/3REZJA - Medium"
+            },
+            {
+                "feed_url": "https://www.newinternationalism.net/?feed=rss2",
+                "htmlUrl": "https://www.newinternationalism.net",
+                "title": "新國際 New International",
+                "description": "思想的、戰鬥的、另類的，推動社會理論與實踐的辯證發展，解釋世界，改變世界。"
+            },
+            {
+                "feed_url": "https://www.cmmedia.com.tw/rss/yahoo/article",
+                "htmlUrl": "https://www.cmmedia.com.tw",
+                "title": "信傳媒最新新聞",
+                "description": "信傳媒新聞"
+            },
+            {
+                "feed_url": "http://www.rti.org.tw/rss/",
+                "htmlUrl": "https://www.rti.org.tw/",
+                "title": "Rti 中央廣播電臺",
+                "description": "Rti 中央廣播電臺"
+            },
+            {
+                "feed_url": "http://feeds.hungching.com/technosophy",
+                "htmlUrl": "https://blog.hungching.com/",
+                "title": "社技哲學．TECHNOSOPHY",
+                "description": "持續思考技術設計與人類行為如何交織成為現代社會的部落格，也分享書評和影評、研究心得與工具。"
+            },
+            {
+                "feed_url": "https://dostoe.blogspot.com/feeds/posts/default",
+                "htmlUrl": "https://dostoe.blogspot.com/",
+                "title": "杜思妥，也乎？斯記。",
+                "description": "杜思妥看到蝴蝶群形成的彩色雲朵，想告訴卡拉馬。但他不在網上。志漣"
+            },
+            {
+                "feed_url": "https://taiwan.chtsai.org/feed/",
+                "htmlUrl": "https://taiwan.chtsai.org",
+                "title": "Taiwan 2.0",
+                "description": "展望一個更美好的台灣"
+            },
+            {
+                "feed_url": "https://buzzorange.com/feed/",
+                "htmlUrl": "https://buzzorange.com",
+                "title": "BuzzOrange",
+                "description": "和我們一起把台灣變更好！《BuzzOrange 報橘》是具動員能量的政治公共社群，關注議題領域包括：全球民主/經濟發展、台灣內政/產業、台灣/中國競合議題、未來政府/數位治理，以及人權正義。"
+            },
+            {
+                "feed_url": "http://kan.blog.ntu.edu.tw/feed/",
+                "htmlUrl": "http://kan.blog.ntu.edu.tw/",
+                "title": "甘懷真的台大網誌",
+                "description": "行在曠野中的道路，沙漠中的江河"
+            },
+            {
+                "feed_url": "http://paulsin.blogspot.com/feeds/posts/default",
+                "htmlUrl": "http://paulsin.blogspot.com/",
+                "title": "Blog of Insanity (狂人日記)",
+                "description": "讀書，是為了遮眼睛。"
+            },
+            {
+                "feed_url": "http://southasiawatch.tw/feed",
+                "htmlUrl": "http://southasiawatch.tw",
+                "title": "南亞觀察",
+                "description": "South Asia Watch"
+            },
+            {
+                "feed_url": "https://whogovernstw.org/feed/",
+                "htmlUrl": "https://whogovernstw.org",
+                "title": "菜市場政治學",
+                "description": ""
+            },
+            {
+                "feed_url": "http://ccumanchustudies.blogspot.com/feeds/posts/default",
+                "htmlUrl": "http://ccumanchustudies.blogspot.com/",
+                "title": "中正大學滿洲研究  Manchu Studies at National Chung Cheng University",
+                "description": "「中正大學滿洲研究」網站由中正大學「滿洲研究室」編輯。「滿洲研究室」下設「滿洲研究班」，以甘德星教授為召集人，成員包括中正大學歷史系研究生和國內外的學人。「滿洲研究室」的研究範圍聚焦於滿洲歷史、文獻、文化、語言，旁及與滿洲研究密切相關的內陸歐亞研究。"
+            }
+        ]
+    }
+}
