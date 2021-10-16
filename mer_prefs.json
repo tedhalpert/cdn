@@ -5,14 +5,14 @@
         ]
     },
     "sourceHanSerifDownloadURL": {
-        "cdnSCRegular": "https://archive.org/download/source-han-serif-sc-regular/SourceHanSerifSC-Regular.otf",
-        "cdnSCMedium": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifSC-Medium.otf",
-        "cdnSCBold": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifSC-Bold.otf",
-        "cdnSCHeavy": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifSC-Heavy.otf",
-        "cdnTCRegular": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifTC-Regular.otf",
-        "cdnTCMedium": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifTC-Medium.otf",
-        "cdnTCBold": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifTC-Bold.otf",
-        "cdnTCHeavy": "https://archive.org/download/source-han-serif-tc-bold/SourceHanSerifTC-Heavy.otf"
+        "cdnSCRegular": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Regular.otf",
+        "cdnSCMedium": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Medium.otf",
+        "cdnSCBold": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Bold.otf",
+        "cdnSCHeavy": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Heavy.otf",
+        "cdnTCRegular": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifTW-Regular.otf",
+        "cdnTCMedium": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifTW-Medium.otf",
+        "cdnTCBold": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifTW-Bold.otf",
+        "cdnTCHeavy": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifTW-Heavy.otf"
     },
     "blockedList": [
     ]
