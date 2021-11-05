@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+        <link rel="stylesheet" href="css/han.min.css" />
+        <link rel="stylesheet" href="css/mreader.css" />
+        <script src="js/vue.min.js"></script>
+        <style type="text/css" id="staticStyle"></style>
+        <style type="text/css" id="dynamicStyle"></style>
+        <base href="#" id="baseTag" />
+
+        <title>Pindoo RSS</title>
+    </head>
+    <body>
+        <div
+            id="merReader"
+            v-bind:class="containerClass"
+            v-bind:style="containerInlineStyle"
+        >
+            
+            <blog-post
+                v-bind:post="post"
+                v-bind:content_style="contentStyle"
+            ></blog-post>
+
+        </div>
+
+        <script src="js/mreader.js" id="mReader"></script>
+        <script src="js/highlight.js"></script>
+        <script src="js/han.min.js"></script>
+        <script src="js/mark.min.js"></script>
+        <script src="js/widgets.js"></script>
+    </body>
+</html>
