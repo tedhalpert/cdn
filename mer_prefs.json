@@ -4,6 +4,9 @@
         "blacklist": [
         ]
     },
+    "mreader_css_version": 1,
+    "mreader_js_version": 1,
+    "reader_html_version": 1,
     "sourceHanSerifDownloadURL": {
         "cdnSCRegular": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Regular.otf",
         "cdnSCMedium": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Medium.otf",
