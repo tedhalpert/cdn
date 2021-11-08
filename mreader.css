@@ -287,6 +287,17 @@ em:lang(ja) {
     margin: 0.93em 0;
 }
 
+#articleContent article {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+#articleContent article li,
+#articleContent article p {
+    text-align: left;
+}
+
 #articleContent #q8XpIw:first-letter {
     -webkit-initial-letter: 2;
     margin-right: 12px;
