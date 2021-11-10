@@ -4,7 +4,7 @@
         "blacklist": [
         ]
     },
-    "mreader_css_version": 2,
+    "mreader_css_version": 3,
     "mreader_js_version": 1,
     "reader_html_version": 1,
     "sourceHanSerifDownloadURL": {
