@@ -287,6 +287,11 @@ em:lang(ja) {
     margin: 0.93em 0;
 }
 
+#articleContent ul li div,
+#articleContent ul li p {
+    margin: 0;
+}
+
 #articleContent article {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
