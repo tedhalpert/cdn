@@ -407,6 +407,10 @@ em:lang(ja) {
     display: inline;
 }
 
+#articleContent img[src^="http://feeds.feedburner.com/"] {
+    display: none;
+}
+
 /* img inside table remains original styles */
 #articleContent table img {
     display: inline !important;
