@@ -523,6 +523,7 @@ mjx-container:not([display~="true"]) mjx-math.MJX-TEX {
 
 #articleContent hr {
     border-style: none;
+    margin: 0.93em 0;
 }
 
 #articleContent b,
