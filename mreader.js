@@ -323,7 +323,9 @@ var vm = new Vue({
             let expectedWidth = this.mediaWidth == 0 ? contentWidth : (contentWidth - padding * 2)
 
             let imgWidth = naturalWidth
-            if (imgWidth < expectedWidth / 2) {
+            if (imgWidth <= 72) {
+                img.classList.add('icon_img')
+            } else if (imgWidth < expectedWidth / 2) {
                 img.classList.add('small_img')
                 img.style.removeProperty('width')
             } else if (imgWidth >= expectedWidth) {
