@@ -263,6 +263,13 @@ em:lang(ja) {
     display: none;
 }
 
+#articleContent div br,
+#articleContent p br,
+#articleContent ul br,
+#articleContent ol br,
+#articleContent figure br,
+#articleContent section br,
+#articleContent table br,
 #articleContent blockquote br {
     display: block !important;
 }
@@ -316,6 +323,14 @@ em:lang(ja) {
     background-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-decoration: none;
+}
+
+#articleContent a.url-link:link,
+#articleContent a.url-link:visited,
+#articleContent a.url-link:hover,
+#articleContent a.url-link:active {
+    font-family: -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 400;
 }
 
 #articleContent table {
@@ -397,6 +412,16 @@ em:lang(ja) {
 
 #articleContent img.small_img {
     margin: 0.93em 0 !important;
+}
+
+#articleContent img.icon_img {
+    display: inline;
+    margin: 0 !important;
+}
+
+#articleContent img.text_icon {
+    max-height: 1em;
+    height: 1em;
 }
 
 #articleContent img[alt="™"] {
@@ -627,7 +652,7 @@ html.mer_xxlarge figure {
 .source_han_serif:lang(ja) #articleContent .mer_body li {
     font-weight: 500;
     font-size: 1.06rem;
-} 
+}
 
 [lang^="en"] blockquote {
     font-style: italic;
