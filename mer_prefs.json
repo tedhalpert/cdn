@@ -5,7 +5,7 @@
         ]
     },
     "mreader_css_version": 7,
-    "mreader_js_version": 2,
+    "mreader_js_version": 3,
     "reader_html_version": 1,
     "sourceHanSerifDownloadURL": {
         "cdnSCRegular": "https://archive.org/download/source-han-serif-cn-tw/SourceHanSerifCN-Regular.otf",
