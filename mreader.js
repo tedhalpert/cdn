@@ -140,6 +140,7 @@ var vm = new Vue({
                 }
             }
             this.handleImages()
+            this.updateLinkUTMSource()
             this.loadTwitterWidget()
         })
     },
@@ -345,6 +346,14 @@ var vm = new Vue({
                 }
             }
 
+        },
+        updateLinkUTMSource: function() {
+            var links = document.getElementsByTagName('a')
+            for (var link of links) {
+                var url = new URL(link.href)
+                url.searchParams.set('utm_source', 'pindoo_rss')
+                link.href = url.toString()
+            }
         },
         loadTwitterWidget: function() {
             let tweets = document.getElementsByClassName('twitter-tweet')
