@@ -271,7 +271,9 @@ em:lang(ja) {
 #articleContent section br,
 #articleContent table br,
 #articleContent blockquote br {
-    display: block !important;
+    display: block;
+    content: " ";
+    line-height: 0;
 }
 
 #articleContent h1,
