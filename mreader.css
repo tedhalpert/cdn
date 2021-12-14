@@ -419,6 +419,7 @@ em:lang(ja) {
 #articleContent img.icon_img {
     display: inline;
     margin: 0 !important;
+    vertical-align: middle;
 }
 
 #articleContent img.text_icon {
