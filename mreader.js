@@ -270,6 +270,9 @@ var vm = new Vue({
                     img.onload = function() {
                         vm.handleSmallImage(this, this.naturalWidth)
                     }
+                    img.onerror = function() {
+                        img.parentNode.removeChild(img)
+                    }
                 }
 
                 // add click function to images
