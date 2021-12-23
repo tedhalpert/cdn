@@ -5,11 +5,13 @@ Vue.component('blog-post', {
     },
     template: `
         <div id="articleContent" v-bind:style="content_style">
-            <div class="mer_caption"><span v-html="post.pubDate"></span></div>
             <div v-html="post.title" class="mer_title"></div>
-            <div class="mer_caption medium">
-                <span v-html="post.author"></span>
-                <span><a v-bind:href="post.url" v-html="post.publisher"></a></span>
+            <div class="mer_caption">
+                <div class="medium">
+                    <span v-html="post.author"></span>
+                    <span><a v-bind:href="post.url" v-html="post.publisher"></a></span>
+                </div>
+                <div><span v-html="post.pubDate"></span></div>
             </div>
             <div v-html="post.content" class="mer_body"></div>
         </div>
