@@ -263,7 +263,13 @@ em:lang(ja) {
     display: none;
 }
 
-#articleContent div br,
+#articleContent div br {
+    display: block;
+    content: " ";  
+    margin: 0.93em 0;
+    line-height: 1.8;
+}
+
 #articleContent p br,
 #articleContent ul br,
 #articleContent ol br,
@@ -273,8 +279,8 @@ em:lang(ja) {
 #articleContent blockquote br {
     display: block;
     content: " "; 
-    margin: 0.93em 0;
-    line-height: 1.8;
+    margin: 0;
+    line-height: 0;
 }
 
 #articleContent h1,
