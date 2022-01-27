@@ -272,8 +272,9 @@ em:lang(ja) {
 #articleContent table br,
 #articleContent blockquote br {
     display: block;
-    content: " ";
-    line-height: 0;
+    content: " "; 
+    margin: 0.93em 0;
+    line-height: 1.8;
 }
 
 #articleContent h1,
