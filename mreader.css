@@ -16,155 +16,155 @@ body {
 }
 
 @font-face {
-    font-family: 'Source Han Serif SC';
+    font-family: "Source Han Serif SC";
     font-weight: 400;
     src: url("font/sourcehanserif/SourceHanSerifCN-Regular.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif SC';
+    font-family: "Source Han Serif SC";
     font-weight: 500;
     src: url("font/sourcehanserif/SourceHanSerifCN-Medium.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif SC';
+    font-family: "Source Han Serif SC";
     font-weight: 700;
     src: url("font/sourcehanserif/SourceHanSerifCN-Bold.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif SC';
+    font-family: "Source Han Serif SC";
     font-weight: 800;
     src: url("font/sourcehanserif/SourceHanSerifCN-Heavy.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif TC';
+    font-family: "Source Han Serif TC";
     font-weight: 400;
     src: url("font/sourcehanserif/SourceHanSerifTW-Regular.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif TC';
+    font-family: "Source Han Serif TC";
     font-weight: 500;
     src: url("font/sourcehanserif/SourceHanSerifTW-Medium.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif TC';
+    font-family: "Source Han Serif TC";
     font-weight: 700;
     src: url("font/sourcehanserif/SourceHanSerifTW-Bold.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif TC';
+    font-family: "Source Han Serif TC";
     font-weight: 800;
     src: url("font/sourcehanserif/SourceHanSerifTW-Heavy.otf");
 }
 
 /* Source Han Serif Japanese */
 @font-face {
-    font-family: 'Source Han Serif JP';
+    font-family: "Source Han Serif JP";
     font-weight: 400;
     src: url("font/sourcehanserif_ja/SourceHanSerifJP-Regular.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif JP';
+    font-family: "Source Han Serif JP";
     font-weight: 500;
     src: url("font/sourcehanserif_ja/SourceHanSerifJP-Medium.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif JP';
+    font-family: "Source Han Serif JP";
     font-weight: 700;
     src: url("font/sourcehanserif_ja/SourceHanSerifJP-Bold.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif JP';
+    font-family: "Source Han Serif JP";
     font-weight: 800;
     src: url("font/sourcehanserif_ja/SourceHanSerifJP-Heavy.otf");
 }
 
 /* Source Han Serif Korean */
 @font-face {
-    font-family: 'Source Han Serif KR';
+    font-family: "Source Han Serif KR";
     font-weight: 400;
     src: url("font/sourcehanserif_ko/SourceHanSerifKR-Regular.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif KR';
+    font-family: "Source Han Serif KR";
     font-weight: 500;
     src: url("font/sourcehanserif_ko/SourceHanSerifKR-Medium.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif KR';
+    font-family: "Source Han Serif KR";
     font-weight: 700;
     src: url("font/sourcehanserif_ko/SourceHanSerifKR-Bold.otf");
 }
 
 @font-face {
-    font-family: 'Source Han Serif KR';
+    font-family: "Source Han Serif KR";
     font-weight: 800;
     src: url("font/sourcehanserif_ko/SourceHanSerifKR-Heavy.otf");
 }
 
 /* 思源黑体400字重实际使用的是normal */
 @font-face {
-    font-family: 'Source Han Sans SC';
+    font-family: "Source Han Sans SC";
     font-weight: 400;
     src: url("font/sourcehansans_sc/SourceHanSansCN-Normal.otf");
 }
 
 /* 思源黑体700字重实际使用的是medium */
 @font-face {
-    font-family: 'Source Han Sans SC';
+    font-family: "Source Han Sans SC";
     font-weight: 700;
     src: url("font/sourcehansans_sc/SourceHanSansCN-Medium.otf");
 }
 
 /* 思源黑体400字重实际使用的是normal */
 @font-face {
-    font-family: 'Source Han Sans TC';
+    font-family: "Source Han Sans TC";
     font-weight: 400;
     src: url("font/sourcehansans_tc/SourceHanSansTW-Normal.otf");
 }
 
 /* 思源黑体700字重实际使用的是medium */
 @font-face {
-    font-family: 'Source Han Sans TC';
+    font-family: "Source Han Sans TC";
     font-weight: 700;
     src: url("font/sourcehansans_tc/SourceHanSansTW-Medium.otf");
 }
 
 /* 思源黑体400字重实际使用的是normal */
 @font-face {
-    font-family: 'Source Han Sans JP';
+    font-family: "Source Han Sans JP";
     font-weight: 400;
     src: url("font/sourcehansans_ja/SourceHanSansJP-Normal.otf");
 }
 
 /* 思源黑体700字重实际使用的是medium */
 @font-face {
-    font-family: 'Source Han Sans JP';
+    font-family: "Source Han Sans JP";
     font-weight: 700;
     src: url("font/sourcehansans_ja/SourceHanSansJP-Medium.otf");
 }
 
 /* 思源黑体400字重实际使用的是normal */
 @font-face {
-    font-family: 'Source Han Sans KR';
+    font-family: "Source Han Sans KR";
     font-weight: 400;
     src: url("font/sourcehansans_ko/SourceHanSansKR-Normal.otf");
 }
 
 /* 思源黑体700字重实际使用的是medium */
 @font-face {
-    font-family: 'Source Han Sans KR';
+    font-family: "Source Han Sans KR";
     font-weight: 700;
     src: url("font/sourcehansans_ko/SourceHanSansKR-Medium.otf");
 }
@@ -265,7 +265,7 @@ em:lang(ja) {
 
 #articleContent div br {
     display: block;
-    content: " ";  
+    content: " "; /*为了br的margin和line-height生效，br需要有内容*/
     margin: 0.93em 0;
     line-height: 1.8;
 }
@@ -278,7 +278,7 @@ em:lang(ja) {
 #articleContent table br,
 #articleContent blockquote br {
     display: block;
-    content: " "; 
+    content: " "; /*为了br的margin和line-height生效，br需要有内容*/
     margin: 0;
     line-height: 0;
 }
@@ -686,11 +686,11 @@ html.mer_xxlarge figure {
 /* 白天/夜间模式颜色 */
 .mer_light {
     background-color: #ffffff;
-    color: #4a4a4a;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .mer_light #articleContent .mer_title {
-    color: #313135;
+    color: #1B1B1B;
 }
 
 .mer_dark {
@@ -706,10 +706,13 @@ html.mer_xxlarge figure {
 .mer_light h6,
 .mer_light p,
 .mer_light div,
-.mer_light li,
+.mer_light li {
+    color: rgba(0, 0, 0, 0.75);
+}
+
 .mer_light blockquote,
 .mer_light blockquote p {
-    color: #4a4a4a;
+    color: rgba(0, 0, 0, 0.68);
 }
 
 .mer_light #articleContent img {
