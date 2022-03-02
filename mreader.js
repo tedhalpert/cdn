@@ -266,38 +266,46 @@ var vm = new Vue({
         handleImages: function() {
             const imgs = document.querySelectorAll('img')
             for (let img of imgs) {
-                if (img.complete) {
-                    this.handleSmallImage(img, img.naturalWidth)
-                } else {
-                    img.onload = function() {
-                        vm.handleSmallImage(this, this.naturalWidth)
-                    }
-                    img.onerror = function() {
-                        img.parentNode.removeChild(img)
+                img.onload = function() {
+                    vm.handleSmallImage(this, this.naturalWidth)
+                }
+                img.onerror = function() {
+                    img.parentNode.removeChild(img)
+                }
+
+                let src = img.getAttribute("src")
+                if (src == null) {
+                    const dataSrc = img.getAttribute("data-src")
+                    if (dataSrc != null) {
+                        img.setAttribute("src", dataSrc)
+                        this.tapOnImg(img)
                     }
                 }
 
                 // add click function to images
-                img.onclick = function(e) {
-                    var url = this.getAttribute('src')
-                    var imgRect = this.getBoundingClientRect()
-                    // 在iOS 10里，getBoundingClientRect()返回的结构体里，参数x和y是undefined， 对应的值在left和top参数，所以构建iOSRect时，判断如果x和y是undefined，则使用left和top参数
-                    var rectObj = {
-                        x: imgRect.x ? imgRect.x : imgRect.left,
-                        y: imgRect.y ? imgRect.y : imgRect.top,
-                        width: imgRect.width,
-                        height: imgRect.height
-                    }
-                    var imageInfo = {
-                        src: url,
-                        boundingRect: rectObj
-                    }
-                    if (vm.deployment == 0) {
-                        console.log(imageInfo)
-                    } else if (vm.deployment == 1) {
-                        // 将onclick监听事件和相关参数传给Swift调用
-                        window.webkit.messageHandlers.imageTapped.postMessage(imageInfo);
-                    }
+                this.tapOnImg(img)
+            }
+        },
+        tapOnImg: function(img) {
+            img.onclick = function(e) {
+                var url = this.getAttribute('src')
+                var imgRect = this.getBoundingClientRect()
+                // 在iOS 10里，getBoundingClientRect()返回的结构体里，参数x和y是undefined， 对应的值在left和top参数，所以构建iOSRect时，判断如果x和y是undefined，则使用left和top参数
+                var rectObj = {
+                    x: imgRect.x ? imgRect.x : imgRect.left,
+                    y: imgRect.y ? imgRect.y : imgRect.top,
+                    width: imgRect.width,
+                    height: imgRect.height
+                }
+                var imageInfo = {
+                    src: url,
+                    boundingRect: rectObj
+                }
+                if (vm.deployment == 0) {
+                    console.log(imageInfo)
+                } else if (vm.deployment == 1) {
+                    // 将onclick监听事件和相关参数传给Swift调用
+                    window.webkit.messageHandlers.imageTapped.postMessage(imageInfo);
                 }
             }
         },
