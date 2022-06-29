@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    /* 阻止文字在横向出现溢出viewport */
+    word-wrap: break-word !important;
+}
+
+#merReader {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "Source Han Serif SC";
+    font-weight: 400;
+    src: url("font/sourcehanserif/SourceHanSerifCN-Regular.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif SC";
+    font-weight: 500;
+    src: url("font/sourcehanserif/SourceHanSerifCN-Medium.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif SC";
+    font-weight: 700;
+    src: url("font/sourcehanserif/SourceHanSerifCN-Bold.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif SC";
+    font-weight: 800;
+    src: url("font/sourcehanserif/SourceHanSerifCN-Heavy.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif TC";
+    font-weight: 400;
+    src: url("font/sourcehanserif/SourceHanSerifTW-Regular.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif TC";
+    font-weight: 500;
+    src: url("font/sourcehanserif/SourceHanSerifTW-Medium.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif TC";
+    font-weight: 700;
+    src: url("font/sourcehanserif/SourceHanSerifTW-Bold.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif TC";
+    font-weight: 800;
+    src: url("font/sourcehanserif/SourceHanSerifTW-Heavy.otf");
+}
+
+/* Source Han Serif Japanese */
+@font-face {
+    font-family: "Source Han Serif JP";
+    font-weight: 400;
+    src: url("font/sourcehanserif_ja/SourceHanSerifJP-Regular.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif JP";
+    font-weight: 500;
+    src: url("font/sourcehanserif_ja/SourceHanSerifJP-Medium.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif JP";
+    font-weight: 700;
+    src: url("font/sourcehanserif_ja/SourceHanSerifJP-Bold.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif JP";
+    font-weight: 800;
+    src: url("font/sourcehanserif_ja/SourceHanSerifJP-Heavy.otf");
+}
+
+/* Source Han Serif Korean */
+@font-face {
+    font-family: "Source Han Serif KR";
+    font-weight: 400;
+    src: url("font/sourcehanserif_ko/SourceHanSerifKR-Regular.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif KR";
+    font-weight: 500;
+    src: url("font/sourcehanserif_ko/SourceHanSerifKR-Medium.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif KR";
+    font-weight: 700;
+    src: url("font/sourcehanserif_ko/SourceHanSerifKR-Bold.otf");
+}
+
+@font-face {
+    font-family: "Source Han Serif KR";
+    font-weight: 800;
+    src: url("font/sourcehanserif_ko/SourceHanSerifKR-Heavy.otf");
+}
+
+/* 思源黑体400字重实际使用的是normal */
+@font-face {
+    font-family: "Source Han Sans SC";
+    font-weight: 400;
+    src: url("font/sourcehansans_sc/SourceHanSansCN-Normal.otf");
+}
+
+/* 思源黑体700字重实际使用的是medium */
+@font-face {
+    font-family: "Source Han Sans SC";
+    font-weight: 700;
+    src: url("font/sourcehansans_sc/SourceHanSansCN-Medium.otf");
+}
+
+/* 思源黑体400字重实际使用的是normal */
+@font-face {
+    font-family: "Source Han Sans TC";
+    font-weight: 400;
+    src: url("font/sourcehansans_tc/SourceHanSansTW-Normal.otf");
+}
+
+/* 思源黑体700字重实际使用的是medium */
+@font-face {
+    font-family: "Source Han Sans TC";
+    font-weight: 700;
+    src: url("font/sourcehansans_tc/SourceHanSansTW-Medium.otf");
+}
+
+/* 思源黑体400字重实际使用的是normal */
+@font-face {
+    font-family: "Source Han Sans JP";
+    font-weight: 400;
+    src: url("font/sourcehansans_ja/SourceHanSansJP-Normal.otf");
+}
+
+/* 思源黑体700字重实际使用的是medium */
+@font-face {
+    font-family: "Source Han Sans JP";
+    font-weight: 700;
+    src: url("font/sourcehansans_ja/SourceHanSansJP-Medium.otf");
+}
+
+/* 思源黑体400字重实际使用的是normal */
+@font-face {
+    font-family: "Source Han Sans KR";
+    font-weight: 400;
+    src: url("font/sourcehansans_ko/SourceHanSansKR-Normal.otf");
+}
+
+/* 思源黑体700字重实际使用的是medium */
+@font-face {
+    font-family: "Source Han Sans KR";
+    font-weight: 700;
+    src: url("font/sourcehansans_ko/SourceHanSansKR-Medium.otf");
+}
+
+.athelas {
+    font-family: "Athelas", -apple-system, "Helvetica Neue", "Helvetica",
+        sans-serif;
+}
+
+.charter {
+    font-family: "Charter", -apple-system, "Helvetica Neue", "Helvetica",
+        sans-serif;
+}
+
+.georgia {
+    font-family: "Georgia", -apple-system, "Helvetica Neue", "Helvetica",
+        sans-serif;
+}
+
+.apple_system_ui_serif {
+    font-family: -apple-system-ui-serif, ui-serif, -apple-system,
+        "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.palatino {
+    font-family: "Palatino", -apple-system, "Helvetica Neue", "Helvetica",
+        sans-serif;
+}
+
+.seravek {
+    font-family: "Seravek", -apple-system, "Helvetica Neue", "Helvetica",
+        sans-serif;
+}
+
+.times_new_roman {
+    font-family: "Times New Roman", -apple-system, "Helvetica Neue", "Helvetica",
+        sans-serif;
+}
+
+.source_han_serif:lang(zh-Hans) {
+    font-family: "Source Han Serif SC", "Source Han Serif CN", -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_serif:lang(zh-Hant) {
+    font-family: "Source Han Serif TC", "Source Han Serif TW", -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_serif:lang(ja) {
+    font-family: "Source Han Serif JP", -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_serif:lang(ko) {
+    font-family: "Source Han Serif KR", -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_sans:lang(zh-Hans) {
+    font-family: "Source Han Sans SC",  -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_sans:lang(zh-Hant) {
+    font-family: "Source Han Sans TC",  -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_sans:lang(ja) {
+    font-family: "Source Han Sans JP",  -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.source_han_sans:lang(ko) {
+    font-family: "Source Han Sans KR",  -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+em:lang(zh),
+em:lang(ja) {
+    font-family: "Biaodian Pro Sans CNS", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+        sans-serif;
+}
+
+#articleContent div.mer_body {
+    margin-top: 30px;
+}
+
+#articleContent tbody {
+    line-height: 1.3;
+}
+
+#articleContent *:not(img, iframe, hr, embed, track, source, col, #articleContent area, area, th, td, mjx-*):empty {
+    /* 注意对于本身就是empty元素，要排除在外 */
+    display: none;
+}
+
+#articleContent br {
+    display: none;
+}
+
+#articleContent div br {
+    display: block;
+    content: " "; /*为了br的margin和line-height生效，br需要有内容*/
+}
+
+#articleContent p br,
+#articleContent ul br,
+#articleContent ol br,
+#articleContent figure br,
+#articleContent section br,
+#articleContent table br,
+#articleContent blockquote br {
+    display: block;
+    content: " "; /*为了br的margin和line-height生效，br需要有内容*/
+    margin: 0;
+    line-height: 0;
+}
+
+#articleContent h1,
+#articleContent h2,
+#articleContent h3,
+#articleContent h4,
+#articleContent h5,
+#articleContent h6 {
+    line-height: 1.5;
+    margin: 0.71em 0;
+}
+
+#articleContent ul li div,
+#articleContent ul li p {
+    margin: 0;
+}
+
+#articleContent article {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+#articleContent article li,
+#articleContent article p {
+    text-align: left;
+}
+
+#articleContent #q8XpIw:first-letter {
+    -webkit-initial-letter: 2;
+    margin-right: 12px;
+}
+
+#articleContent a:link,
+#articleContent a:visited,
+#articleContent a:hover,
+#articleContent a:active {
+    color: #428bca;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+#articleContent a.url-link:link,
+#articleContent a.url-link:visited,
+#articleContent a.url-link:hover,
+#articleContent a.url-link:active {
+    font-family: -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 400;
+}
+
+#articleContent table {
+    border-collapse: collapse;
+    /* 阻止table宽度超出父级元素 */
+    table-layout: fixed;
+    width: 100%;
+}
+
+#articleContent th,
+#articleContent td {
+    padding: 4px;
+}
+
+/* 文章标题和副标题样式 */
+#articleContent div.mer_body {
+    margin-top: 30px;
+}
+
+#articleContent .mer_title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 8px;
+}
+
+.source_han_serif:lang(zh-Hans) #articleContent .mer_title,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_title,
+.source_han_serif:lang(ja) #articleContent .mer_title,
+.source_han_serif:lang(ko) #articleContent .mer_title {
+    font-weight: 800;
+}
+
+:lang(zh-Hans) #articleContent .mer_title,
+:lang(zh-Hant) #articleContent .mer_title,
+:lang(ja) #articleContent .mer_title,
+:lang(ko) #articleContent .mer_title {
+    letter-spacing: 1px;
+}
+
+#articleContent .mer_caption {
+    font-family: -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+    margin: 20px 0;
+}
+
+#articleContent .mer_caption div {
+    margin: 0;
+    line-height: 1.5;
+}
+
+#articleContent .mer_caption div span {
+    color: #afaead;
+    font-size: 0.765rem;
+    font-weight: 600;
+    margin: 0px 12px 0 0;
+    text-transform: uppercase;
+}
+
+:lang(zh-Hans) #articleContent .mer_caption div span,
+:lang(zh-Hant) #articleContent .mer_caption div span {
+    font-weight: 500;
+}
+
+#articleContent .mer_caption .medium span {
+    font-size: 0.882rem;
+    display: inline-block;
+}
+
+#articleContent .mer_caption div span:empty {
+    display: none;
+}
+
+/* 图片相关样式 */
+#articleContent img,
+#articleContent iframe:not([id^="twitter-widget"]),
+#articleContent video {
+    width: auto;
+    height: auto;
+    display: block;
+    border: none;
+}
+
+.media_text_width #articleContent img,
+.media_text_width #articleContent iframe:not([id^="twitter-widget"]),
+.media_text_width #articleContent video {
+    max-width: 100%;
+}
+
+#articleContent img.small_img {
+    margin: 0.93em 0 !important;
+}
+
+#articleContent img.icon_img {
+    display: inline;
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+#articleContent img.text_icon {
+    max-height: 1em;
+    height: 1em;
+}
+
+#articleContent img[alt="™"] {
+    float: none;
+    margin: 0 0 8px !important;
+    height: 10px;
+    max-height: 1em;
+    display: inline;
+}
+
+#articleContent img[src^="http://feeds.feedburner.com/"] {
+    display: none;
+}
+
+/* img inside table remains original styles */
+#articleContent table img {
+    display: inline !important;
+    margin: auto !important;
+    float: none !important;
+    max-width: 100% !important;
+}
+
+#articleContent figure ul,
+#articleContent figure ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#articleContent ul img,
+#articleContent ol img,
+#articleContent blockquote img {
+    max-width: 100% !important;
+}
+
+#articleContent iframe {
+    width: 100%;
+    height: auto;
+}
+
+.media_full_width #articleContent iframe:not([id^="twitter-widget"]),
+.media_full_width #articleContent video {
+    width: 100vw;
+}
+
+.media_text_width #articleContent iframe:not([id^="twitter-widget"]),
+.media_text_width #articleContent video {
+    width: 100%;
+}
+
+#articleContent figure {
+    outline: none;
+}
+
+#articleContent figcaption,
+#articleContent figure p,
+#articleContent small {
+    font-family: -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 0.706rem;
+    text-align: left;
+    margin: -0.9em 0 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+
+/* blockquote相关样式 */
+#articleContent blockquote {
+    padding: 0 10px;
+    text-align: left;
+}
+
+#articleContent blockquote p {
+    margin: 0;
+}
+
+/* 代码相关样式 */
+#articleContent pre {
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    overflow: auto;
+    line-height: 1.5;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #262626;
+    color: #f8f8f2;
+    -webkit-overflow-scrolling: touch;
+    /* 兼容iOS 12及以下，横向滑动的smoothness */
+}
+
+#articleContent pre code {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#articleContent code {
+    font-family: -apple-system-ui-monospace, ui-monospace, "Menlo-Regular" !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+mjx-container[display~="true"] {
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding: 12px 0;
+    -webkit-overflow-scrolling: touch;
+    /* 兼容iOS 12及以下，横向滑动的smoothness */
+}
+
+mjx-container:not([display~="true"]) mjx-math.MJX-TEX {
+    white-space: normal;
+    line-height: 0.5;
+}
+
+#articleContent hr {
+    border-style: none;
+}
+
+#articleContent b,
+#articleContent strong {
+    font-weight: 700;
+}
+
+/* 上古的html tag */
+#articleContent u {
+    /* 有些订阅源拿这个标签来做underline样式 */
+    border: none;
+    text-decoration: none;
+}
+
+#articleContent center, #articleContent div[align="center"] {
+    text-align: left;
+}
+
+/*
+ * 动态字体：
+ * 字体大小，分为5种字号：mer_small、mer_medium、mer_large、mer_xlarge、mer_xxlarge
+ * 每个元素的字体单位为相对值rem，根据body的font-size进行改变渲染尺寸
+ */
+
+html.mer_small,
+html.mer_small figure {
+    font-size: 16px;
+}
+
+html.mer_medium,
+html.mer_medium figure {
+    font-size: 17px;
+}
+
+html.mer_large,
+html.mer_large figure {
+    font-size: 18px;
+}
+
+html.mer_xlarge,
+html.mer_xlarge figure {
+    font-size: 19px;
+}
+
+html.mer_xxlarge,
+html.mer_xxlarge figure {
+    font-size: 20px;
+}
+
+#articleContent h1 {
+    font-size: 1.375rem;
+}
+
+#articleContent h2 {
+    font-size: 1.32rem;
+}
+
+#articleContent h3 {
+    font-size: 1.25rem;
+}
+
+#articleContent h4 {
+    font-size: 1.19rem;
+}
+
+#articleContent h5 {
+    font-size: 1.13rem;
+}
+
+#articleContent h6 {
+    font-size: 1.07rem;
+}
+
+#articleContent p,
+#articleContent div,
+#articleContent blockquote,
+#articleContent blockquote p,
+#articleContent li {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.source_han_serif:lang(zh-Hans) #articleContent .mer_body,
+.source_han_serif:lang(zh-Hans) #articleContent .mer_body p,
+.source_han_serif:lang(zh-Hans) #articleContent .mer_body div,
+.source_han_serif:lang(zh-Hans) #articleContent .mer_body blockquote,
+.source_han_serif:lang(zh-Hans) #articleContent .mer_body blockquote p,
+.source_han_serif:lang(zh-Hans) #articleContent .mer_body li,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_body,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_body p,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_body div,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_body blockquote,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_body blockquote p,
+.source_han_serif:lang(zh-Hant) #articleContent .mer_body li,
+
+.source_han_serif:lang(ja) #articleContent .mer_body,
+.source_han_serif:lang(ja) #articleContent .mer_body p,
+.source_han_serif:lang(ja) #articleContent .mer_body div,
+.source_han_serif:lang(ja) #articleContent .mer_body blockquote,
+.source_han_serif:lang(ja) #articleContent .mer_body blockquote p,
+.source_han_serif:lang(ja) #articleContent .mer_body li {
+    font-weight: 500;
+    font-size: 1.06rem;
+}
+
+#articleContent p code,
+#articleContent pre code {
+    font-size: 0.95rem;
+}
+
+#articleContent tbody {
+    font-size: 0.9rem;
+}
+
+/* 白天/夜间模式颜色 */
+.mer_light {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.mer_light #articleContent .mer_title {
+    color: #1B1B1B;
+}
+
+.mer_dark {
+    background-color: #1a1a1c;
+    color: #d9dad3;
+}
+
+.mer_light h1,
+.mer_light h2,
+.mer_light h3,
+.mer_light h4,
+.mer_light h5,
+.mer_light h6,
+.mer_light p,
+.mer_light div,
+.mer_light li {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.mer_light blockquote,
+.mer_light blockquote p {
+    color: rgba(0, 0, 0, 0.68);
+}
+
+.mer_light #articleContent img {
+    mix-blend-mode: multiply;
+}
+
+.mer_dark #articleContent img {
+    filter: brightness(80%);
+}
+
+.mer_light blockquote {
+    border-left: 5px solid #e8e8e8;
+}
+
+.mer_dark blockquote {
+    border-left: 5px solid #333333;
+}
+
+.mer_light code {
+    background-color: #f2f2f2;
+    color: #323232;
+}
+
+.mer_light pre code {
+    background-color: rgba(0, 0, 0, 0);
+    color: #f8f8f2;
+}
+
+.mer_light hr {
+    background-color: #979795;
+}
+
+.mer_dark hr {
+    background-color: #6f6f6f;
+}
+
+mark {
+    background-color: #d1e7ff;
+}
