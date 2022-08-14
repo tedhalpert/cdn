@@ -7,6 +7,6 @@
         "excludeArea": ["cn", "tw"],
         "appName": "Crypto Currencies Converter",
         "appDescription": "Your new web3 tool. From same developer",
-        "appIcon": ""
+        "appIcon": "https://cdn.jsdelivr.net/gh/tedhalpert/cdn/images/converter_logo.png"
     }
 ]
