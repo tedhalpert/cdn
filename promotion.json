@@ -4,6 +4,9 @@
         "promotionID": "PID1001",
         "imageURL": "https://cdn.jsdelivr.net/gh/tedhalpert/cdn/images/test@2x.png",
         "appstoreURL": "https://apps.apple.com/app/apple-store/id1638678860?pt=118617862&ct=pindoorss&mt=8",
-        "excludeArea": ["cn", "tw"]
+        "excludeArea": ["cn", "tw"],
+        "appName": "Crypto Currencies Converter",
+        "appDescription": "Your new web3 tool. From same developer",
+        "appIcon": ""
     }
 ]
